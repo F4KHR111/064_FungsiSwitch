@@ -30,5 +30,18 @@ float pengurangan(float a, float b) {
 
 int main()
 {
-   
+	int pilihan;
+
+	do
+	{
+		cout << "============================";
+		cout << "MENU" << endl;
+		cout << "1. Penjumlahan " << endl;
+		cout << "2. Pembagian " << endl;
+		cout << "3. Perkalian " << endl;
+		cout << "4. Pengurangan" << endl;
+		cout << "5. EXIT " << endl;
+		cout << "Masukan pilihan 1/2/3/4/5 = ";
+		cin >> pilihan;
+	} while (pilihan !=5 );
 }
