@@ -34,7 +34,7 @@ int main()
 
 	do
 	{
-		cout << "============================";
+		cout << "============================" << endl;
 		cout << "MENU" << endl;
 		cout << "1. Penjumlahan " << endl;
 		cout << "2. Pembagian " << endl;
@@ -53,7 +53,7 @@ int main()
 			break;
 		case 2:
 			input();
-			cout << "Hasil Pembagian = " << pengurangan(bilSatu, bilDua) << endl;
+			cout << "Hasil Pembagian = " << pembagian(bilSatu, bilDua) << endl;
 			system("pause");
 			break;
 		case 3:
@@ -63,7 +63,7 @@ int main()
 			break;
 		case 4:
 			input();
-			cout << "Hasil Penguranagn = " << penjumlahan(bilSatu, bilDua) << endl;
+			cout << "Hasil Penguranagn = " << pengurangan(bilSatu, bilDua) << endl;
 			system("pause");
 			break;
 		case 5:
